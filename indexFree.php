@@ -1,3 +1,7 @@
 <?php
-echo "Welcome to Raj's Website my friends!!!";
+
+echo '{ "title":"Rajesh Ramayan s Sexy Web" }';
+
+
+
 ?>

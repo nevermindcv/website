@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
-   <head>
-        <title>Welcome Raj's Web</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      
-    </head>
+<head>
+  <style>
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  </style>
+  <title>Welcome Raj's Web</title>
+</head>
+   
 <body>
-<div id="response"></div>
+<div id="name"></div>
+<div id="News"></div>
+<div id="Location"></div>
+
+
+
+
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
@@ -34,15 +53,23 @@
   }
 </style>
 
-<h2 class="red-text">Rajesh Ramayan's Sexy Web</h2>
+<center><h2 class="red-text" id="response"></h2></center>
 
-<p>Click here for <a href="#">Rajesh's Sexy Pics</a>.</p>
+<center><div class="container-fluid bg-1 text-center">
+  <h3>Who Am I?</h3>
+  <img img class="smaller-image thick-green-border" alt="Rajesh pic" src="https://pbs.twimg.com/profile_images/840990186779549696/rLFVPRPu_400x400.jpg" class="img-circle" alt="Bird">   <p>Click here for <a href="#">Rajesh's Sexy Pics</a>.</p>
+  <h3>I'm a Scientist</h3>
+</div>
 
-<a href="#"><img class="smaller-image thick-green-border" alt="Rajesh pic" src="https://pbs.twimg.com/profile_images/840990186779549696/rLFVPRPu_400x400.jpg"></a>
+<div class="container-fluid bg-2 text-center">
+  <h3>About Me</h3>
+  <p>My name is Raj, my best friend is Howard Wolowitz, with whom I share what Nayyar calls a "bromance", although our relationship is frequently made awkward by my metrosexuality. I work as an astrophysicist in the Physics Department at Caltech. I had selective mutism, which did not allow me to talk to women outside of his family unless he was under the influence of alcohol (or medication), until 4 years ago.</p>
+</div>
 
-<p>About Me</p>
-
-<p>My name is Raj, my best friend is Howard Wolowitz, with whom I share what Nayyar calls a "bromance", although our relationship is frequently made awkward by my metrosexuality. I work as an astrophysicist in the Physics Department at Caltech. I had selective mutism, which did not allow me to talk to women outside of his family unless he was under the influence of alcohol (or medication), until 4 years ago.</p>
+<div class="container-fluid bg-3 text-center">
+  <h3>Where To Find Me?</h3>
+  <p>Pasadena, California</p>
+</div></center>
 
 <p>Things Raj loves:</p>
 <ul>
